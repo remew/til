@@ -33,7 +33,7 @@ func f3(a float64, b, c int, d string) {
 返り値の型も後置で、複数の値を返すときの型はカッコで囲んでカンマ区切りにする(return文はカッコで囲まなくても良い)
 
 ```go
-func swap(a, b int) (int int) {
+func swap(a, b int) (int, int) {
   return b, a
 }
 ```
